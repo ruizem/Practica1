@@ -27,7 +27,9 @@
     [[self uilista]setDataSource:self];
     [self creaOabredb];
     self.view.backgroundColor = [UIColor orangeColor];
+    //self.view.backgroundColor = [UIColor ColorWithPatternImage:[UIImage imageNamed:@"Nombre imagen.png"]];
     _uilista.backgroundColor = [UIColor blackColor];
+    //self.view.backgroundColor = [UIColor ColorWithPatternImage:[UIImage imageNamed:@"Nombre imagen.png"]];
 }
 
 -(void)creaOabredb
